@@ -6,7 +6,7 @@ before_install:
   - docker build -t zackondocker/react-on-docker -f Dockerfile.dev .
 
 script:
-  - docker run zackondocker/react-on-docker npm run test -- --coverage
+  - docker run -e CI=true zackondocker/react-on-docker npm run test -- --coverage
 
 deploy:
   provider: elasticbeanstalk
