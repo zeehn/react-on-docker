@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          React CI CD Project using TravisCI and Docker
         </a>
       </header>
     </div>
