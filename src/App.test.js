@@ -4,6 +4,8 @@ import App from './App';
 
 test('renders learn react link', () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
+  const linkElement = getByText(
+    /React CI CD Project using TravisCI and Docker/i
+  );
   expect(linkElement).toBeInTheDocument();
 });
